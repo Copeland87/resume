@@ -1,0 +1,34 @@
+#bg1 {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.9;
+}
+
+#name  {
+	text-align: center;
+	color: ;
+}
+
+#connect {
+	display: inline-block;
+}
+
+.h3 {
+	padding: 0;
+	margin: 0;
+}
+
+.custom1 {
+	color: dodgerblue;
+	text-decoration: underline;
+}
+
+.panel-body {
+
+}
+
+#connect {
+	color: dodgerblue;
+}

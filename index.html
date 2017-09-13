@@ -64,7 +64,11 @@
 <div class="clearfix"></div>
 
 <div class="panel panel-title">
-	<h1 id=name> Zac Copeland </h1>
+  <h2 class="text-center"> Welcome to my resume, perspective employeer. </h2>
+</div>
+
+<div class="panel panel-title">
+	<h1 id=name> My name is Zac Copeland </h1>
 </div>
 
 <br>
@@ -136,8 +140,21 @@
   </div>
 </div>
 
-</body>
-</html>
+<script>
+
+var para = document.querySelector('h2');
+
+para.addEventListener('click', updateName);
+
+function updateName() {
+  var name = prompt('Enter a new name');
+  para.textContent = 'Welcome to my resume ' + name + '.';
+}
+
+  // alert("Welcome to my Resume!");
+</script>
+
+<script type="text/javascript" src="./assets/js.js"></script>
 
 </body>
 </html>
